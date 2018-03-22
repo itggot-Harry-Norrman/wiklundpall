@@ -15,11 +15,17 @@
         <article class="first">
             <div class="layer_2">
                 <nav>
-                    <h1>WIKLUND PALL</h1>
+                    <h1 style="font-size: 2.5em">WIKLUND PALL</h1>
                     <div class="nav_right">
-                        <h3 class="nav_btns">Our Work</h3>
-                        <h3 class="nav_btns">About Us</h3>
-                        <h3 class="nav_btns">Contact</h3>
+                        <div class="nav_btns">
+                            <h3>Our Work</h3>
+                        </div>
+                        <div class="nav_btns">
+                            <h3>About Us</h3>
+                        </div>
+                        <div class="nav_btns">
+                            <h3>Contact</h3>
+                        </div>
                     </div>
                 </nav>
                 <div class="content">
@@ -45,7 +51,7 @@
                 </div>
             </div>
         </article>
-        <article class="second">
+        <article class="second" id="article1">
             <div class="layer_2_2nd">
                 <div class="our_buisness">
                     <div>
@@ -110,7 +116,7 @@
                         <form action="#" method="post" class="width_grabb">
                             <input type="text" placeholder="EMAIL">
                             <input type="text" placeholder="TITLE">
-                            <textarea name="content" id="" cols="20" rows="3" placeholder="MESSAGE"></textarea>
+                            <textarea name="content" id="" cols="20" rows="5 " placeholder="MESSAGE"></textarea>
                             <input type="submit" value="send" class="submit">
                         </form>
                     </div>
@@ -132,4 +138,12 @@
 </body>
 <script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/fadein.js"></script>
+<script>
+    $(".scroll_div").click(function () {
+        $('html, body').stop().animate({
+            scrollTop: $("#article1").offset().top
+        }, 1000);
+    });
+</script>
+
 </html>

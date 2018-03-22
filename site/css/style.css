@@ -9,6 +9,11 @@ body {
 .first {
     background-image: url("../img/resize.jpg");
 }
+.nav_btns:hover {
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 0px 0px rgba(255, 255, 255, 1);
+}
 .layer_2 {
     background-color: rgba(248, 124, 31, 0.90);
     height: 100vh;
@@ -179,9 +184,9 @@ p {
 .sizing {
     width: 60vw;
     position: relative;
-    -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
-    box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.1);
 }
 .centered_text {
     text-align: center;
@@ -286,4 +291,25 @@ textarea {
     width: 40px;
     height: 40px;
     margin: 5px;
+}
+.svg_sz {
+    width: 80px;
+    height: 80px;
+}
+.scroll_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.hideme {
+    opacity: 0;
+}
+.hover_fx {
+    transform: scale(1, 1);
+    transition: 0.3s;
+}
+.hover_fx:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
 }

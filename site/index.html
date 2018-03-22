@@ -17,9 +17,9 @@
                 <nav>
                     <h1>WIKLUND PALL</h1>
                     <div class="nav_right">
-                        <h3>Our Work</h3>
-                        <h3>About Us</h3>
-                        <h3>Contact</h3>
+                        <h3 class="nav_btns">Our Work</h3>
+                        <h3 class="nav_btns">About Us</h3>
+                        <h3 class="nav_btns">Contact</h3>
                     </div>
                 </nav>
                 <div class="content">
@@ -37,6 +37,12 @@
                         <img src="./img/stages.png" alt="">
                     </div>
                 </div>
+                <div class="scroll_div hover_fx">
+                    <div class="scroll_button">
+                        <p> • SCROLL • </p>
+                    </div>
+                    <img src="./img/arrow.svg" alt="" class="svg_sz">
+                </div>
             </div>
         </article>
         <article class="second">
@@ -45,14 +51,14 @@
                     <div>
                         <div class="inf_txt">
                             <h2 class="txt_col">A FAMILY COMPANY.</h2>
-                            <div class="paragraph">
+                            <div class="paragraph hideme">
                                 <p class="txt_col line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum, alias sit ipsam esse
                                     voluptatem, quis suscipit voluptates voluptas aliquam libero. Esse ducimus animi quibusdam
                                     explicabo cumque iste mollitia nobis. Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Voluptatum numquam expedita architecto minima commodi ut magnam deserunt ratione
                                     aperiam asperiores delectus voluptas consectetur.</p>
                             </div>
-                            <div class="paragraph">
+                            <div class="paragraph hideme">
                                 <p class="txt_col line_height">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum esse optio itaque blanditiis
                                     assumenda, maiores architecto incidunt error, eius molestiae distinctio officiis.</p>
                             </div>
@@ -62,10 +68,10 @@
                         </div>
                     </div>
                     <div class="workers">
-                        <div class="round_img" id="round1"></div>
-                        <div class="round_img" id="round2"></div>
-                        <div class="round_img" id="round3"></div>
-                        <div class="round_img" id="round4"></div>
+                        <div class="round_img hideme" id="round1"></div>
+                        <div class="round_img hideme" id="round2"></div>
+                        <div class="round_img hideme" id="round3"></div>
+                        <div class="round_img hideme" id="round4"></div>
                     </div>
                 </div>
             </div>
@@ -74,14 +80,14 @@
             <div class="layer_2_3rd">
                 <div class="centered_text">
                     <h2 class="txt_col">OUR WORK.</h2>
-                    <p class="txt_col line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur et enim, placeat fugiat
+                    <p class="txt_col line_height hideme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur et enim, placeat fugiat
                         tempora, suscipit vel eveniet excepturi eius officiis nihil beatae, voluptate magnam reiciendis?
                         Commodi non recusandae voluptatibus!</p>
                 </div>
                 <div class="big_img">
                     <img class="sizing" src="./img/memblock.png" alt="">
                     <div class="button" id="adbtn">
-                        <h3 class="link_size">CHECK OUT MEMBLOCK</h3>
+                        <a class="link_size" href="https://play.google.com/store/apps/details?id=se.wiklund.memblock">CHECK OUT MEMBLOCK</a>
                     </div>
                 </div>
             </div>
@@ -91,11 +97,11 @@
                 <div class="size_adj">
                     <div class="inf_txt" id="txt_last">
                         <h2>CONTACT.</h2>
-                        <p class="line_height">
+                        <p class="line_height hideme">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, incidunt, numquam facere nam ullam sunt perferendis voluptates
                             doloribus at vero cum quasi optio facilis distinctio. Sequi eveniet eos error accusantium!
                         </p>
-                        <p class="line_height">
+                        <p class="line_height hideme">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, incidunt, numquam facere nam ullam sunt perferendis voluptates
                             doloribus.
                         </p>
@@ -124,5 +130,6 @@
         </footer>
     </div>
 </body>
-
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/fadein.js"></script>
 </html>

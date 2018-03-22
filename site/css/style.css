@@ -251,6 +251,7 @@ textarea {
 .submit {
     color: rgba(248, 124, 31, 1);
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
     font-size: 1.2em;
     width: 10vw;
     border-radius: 45px;

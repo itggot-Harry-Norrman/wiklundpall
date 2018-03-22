@@ -210,6 +210,10 @@ p {
 footer {
     height: 20vh;
     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .size_adj {
     width: 80vw;
@@ -258,4 +262,18 @@ textarea {
 }
 #txt_last {
     width: 35vw;
+}
+.spanning {
+    color: #c2c2c2;
+    font-size: 1.2em;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ico_sz {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
